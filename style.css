@@ -1,0 +1,105 @@
+/*!
+Theme Name: Musical Event
+Theme URI: https://github.com/melvinlemoine/WordPress-theme-boilerplate
+Author: Esther LEDOUX
+Author URI: https://melvin.studio
+Description: Let's create a new theme !
+Version: 1.0
+*/
+
+/* Styles pour le body */
+body {
+    font-family: 'Lora', serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 5%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    font-family: 'Lora', serif;
+    padding: 8px 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 50%;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    background-color: #555;
+}
+
+
+/* Style pour le footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 10%; /* Augmentation de la marge supérieure */
+}
+
+/* Contenu du footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-bottom: 10%;
+}
+
+/* Style pour la navigation dans le footer */
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-nav ul li {
+    margin-bottom: 10px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: none;
+}
+
+/* Style pour les titres de contact */
+.footer-contact h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style pour le texte du bas de page */
+.footer-bottom {
+    margin-top: 40px;
+    color: #ccc;
+}
